@@ -1,0 +1,53 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 350px;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('digital_clock.jpeg');
+} 
+
+#heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    letter-spacing: 20px;
+}
+.clock{
+    display: flex;
+    color: white;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 200px;
+    height: 100px;
+    background: rgb(42, 41, 41);
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    overflow: hidden;
+}
+.clock .text{
+    height : 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background: gray;
+
+}
+.clock #ampm{
+    bottom : 0px;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    font-size: 30px;
+    background: rgb(0, 0, 0);
+}
